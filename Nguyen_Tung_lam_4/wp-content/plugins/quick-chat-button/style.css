@@ -1,0 +1,47 @@
+/* style.css */
+.qcb-chat-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10000;
+}
+.qcb-chat-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.qcb-messenger {
+    background-color: #0084ff;
+}
+.qcb-messenger:hover {
+    background-color: #006ecc;
+    transform: scale(1.1);
+}
+.qcb-zalo {
+    background-color: #0068ff;
+}
+.qcb-zalo:hover {
+    background-color: #0050cc;
+    transform: scale(1.1);
+}
+
+.qcb-chat-buttons i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.qcb-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
